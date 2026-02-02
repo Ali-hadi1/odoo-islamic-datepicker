@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "Hijri Qamari Date Picker",
+    "name": "Islamic Date Picker (Hijri/Qamari)",
     "version": "1.0",
     "category": "web",
     "sequence": 7,
