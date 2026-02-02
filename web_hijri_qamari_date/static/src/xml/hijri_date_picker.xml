@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="web_hijri_qamari_date.HijriDatePicker" owl="1">
+        <div class="o_datepicker hijri-datepicker position-relative" style="margin-top: 5px;" t-att-class="props.className">
+            <div class="o_input_dropdown">
+                <input type="text"
+                    class="o_input o_datepicker_input"
+                    t-att-id="props.inputId"
+                    t-att-placeholder="props.placeholder || ''"
+                    t-att-disabled="props.readonly"
+                    t-ref="pickerInput"
+                    autocomplete="off"/>
+                <span class="o_datepicker_button" />
+            </div>
+        </div>
+    </t>
+
+</templates>
